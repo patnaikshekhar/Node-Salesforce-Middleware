@@ -1,0 +1,17 @@
+{
+  "name": "salesforce_middleware",
+  "version": "1.0.0",
+  "description": "Middleware Layer for Salesforce to deploy to heroku",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "jsforce": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

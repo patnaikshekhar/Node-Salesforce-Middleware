@@ -50,7 +50,8 @@ app.get('/', function(request, response) {
 							}
 						});
 					}
-			});	
+				}
+			);	
 		}
 	} catch(e) {
 		returnError(response, err);
@@ -84,7 +85,8 @@ app.put('/', function(request, response) {
 						}
 					});
 				}
-		});
+			}
+		);
 
 	} catch(e) {
 		returnError(response, e.message);
@@ -115,7 +117,8 @@ app.post('/', function(request, response) {
 						}
 					});
 				}
-		});
+			}
+		);
 
 	} catch(e) {
 		returnError(response, e.message);

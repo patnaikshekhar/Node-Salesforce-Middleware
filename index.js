@@ -19,7 +19,7 @@ var returnSuccess = function(response, result) {
 	response.send({
 		error: null,
 		result: result
-	})
+	});
 };
 
 app.use(bodyParser.json());
